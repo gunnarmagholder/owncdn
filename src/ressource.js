@@ -13,11 +13,13 @@ class Ressource extends React.Component {
   }
 
   render() {
+    const title = this.props.title
+    const link = this.props.link
     return(
       <li><span><h3>
-        <a id={this.props.title} href={this.props.link}>{this.props.title}</a>
+        <a id={title} href={link}>{title}</a>
       </h3><button className="btn"
-            data-clipboard.text={this.props.link}>Copy</button></span></li>
+            data-clipboard.text={link}>Copy</button></span></li>
     )
   }
 }
