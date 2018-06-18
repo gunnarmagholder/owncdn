@@ -1,7 +1,10 @@
 const webpack = require('webpack')
+const glob = require('glob')
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: {
+    js: glob.sync('.src/*.js')
+  },
   output: {
     path: "dist/assets",
     filename: "bundle.js",
