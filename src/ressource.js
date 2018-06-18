@@ -19,7 +19,7 @@ class Ressource extends React.Component {
       <li><span><h3>
         <a id={title} href={link}>{title}</a>
       </h3><button className="btn"
-            data-clipboard.text={link}>Copy</button></span></li>
+            data-clipboard-text={link}>Copy</button></span></li>
     )
   }
 }
