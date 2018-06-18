@@ -1,4 +1,5 @@
 const webpack = require('webpack')
+const glob = require('glob')
 
 module.exports = {
   entry: "./src/index.js",
