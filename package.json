@@ -1,0 +1,30 @@
+{
+  "name": "cdn",
+  "version": "0.0.2",
+  "description": "Frontend for a simple content delivery network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
+  "author": "G. Magholder",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "dependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.0.0",
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "json-loader": "^0.5.4",
+    "npm": "^6.1.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
