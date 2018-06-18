@@ -14,7 +14,10 @@ class Ressource extends React.Component {
 
   render() {
     return(
-      <li><span><h3><a id={this.props.title} href={this.props.link}>{this.props.title}</a></h3><button>Copy</button></span></li>
+      <li><span><h3>
+        <a id={this.props.title} href={this.props.link}>{this.props.title}</a>
+      </h3><button className="btn"
+            data-clipboard.text={this.props.link}>Copy</button></span></li>
     )
   }
 }
